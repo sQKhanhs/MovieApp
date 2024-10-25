@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
         swipeRefreshLayout = binding.swipeLayout;
         swipeRefreshLayout.setColorSchemeColors(getColor(R.color.black));
         getPopularMovies();
-        Log.
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
